@@ -1,0 +1,13 @@
+.main{
+    background-color: rgb(8, 170, 153);
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 60px;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
