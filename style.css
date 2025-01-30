@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: 'Ubuntu',sans-serif;
+}
 .main{
     background-color: rgb(8, 170, 153);
     position: relative;
@@ -5,9 +11,86 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 60px;
+    flex-direction: column;
+    padding: 30px 100px;
 }
-*{
-    margin: 0%;
-    padding: 0%;
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+.logo
+{
+    max-width: 90px;
+}
+.navigation
+{
+    display: flex;
+}
+.navigation li
+{
+    list-style: none;
+}
+.navigation li a 
+{
+    position: relative;
+    color: yellow;
+    text-decoration: none;
+    margin-left: 40px;
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .text
+{
+    width: 100px;
+    max-width: 600px;
+}
+.content.text h2
+{
+    color: #fff;
+    font-size: 5em;
+    font-weight: 300;
+}
+.content .text h2 span
+{
+    font-weight: 700;
+}
+.content.text p
+{
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.lem;
+    line-height:1.5em;
+    margin: 20px 0;
+
+}
+.btn
+{
+    position: relative;
+    display: inline-block;
+    padding: 20px 50px;
+    background: #fff;
+    color: #333;
+    font-size: 1.lem;
+    font-weight: 500;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+.btn:hover{
+    letter-spacing: 2px;
 }
